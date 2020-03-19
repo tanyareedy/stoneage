@@ -1,6 +1,6 @@
 <template>
-    <div v-if="loaded">
-        <div class="">
+    <div class="" v-if="loaded">
+        <div class="container">
             <h1 class="is-size-4 py-2"> {{trader.name}} Profile</h1>
             <h1 v-if="notification.success !== null" class="has-background-success py-2">{{notification}}</h1>
             <h1 v-if="notification.error !== null" class="has-background-danger py-2">{{notification}}</h1>
@@ -8,7 +8,7 @@
 
             <div class="columns">
                 <div class="column is-9 pt-5  ">
-                    <div class="has-background-white   py-4 rounded-lg rounded-lg  mb-3">
+                    <div class="has-background-white px-3  py-4 rounded-lg rounded-lg  mb-3">
                         <h1 class="text-left is-size-4 has-text-weight-bold">Details</h1>
                         <hr>
                         <div class="pb-3">
@@ -52,7 +52,7 @@
                         <br>
 
                     </div>
-                    <div class="has-text-left py-4 has-background-white rounded-lg">
+                    <div class="has-text-left px-3 py-4 has-background-white rounded-lg">
 
                         <router-link :to="{name:'users',params:{id:trader.code}}">
                             <span class="button is-white  is-pulled-right has-text-success underline"><i
@@ -80,7 +80,7 @@
                 </div>
 
 
-                <div class="column is-2-desktop-only mt-3 ">
+                <div class="column is-2-desktop-only mt-3 mr-md-5 ">
                     <div class="has-background-white my-3 py-3 rounded-lg px-3">
 
                         <figure class="media-left">
@@ -165,7 +165,7 @@
             <div class="container">
                 <div class="columns custom-columns">
                     <div class="column  is-12 has-background-white rounded-lg">
-                        <div id="target"></div>
+
                         <h1 class="is-size-4 my-3">
                             {{trader.name}} Review
                         </h1>
