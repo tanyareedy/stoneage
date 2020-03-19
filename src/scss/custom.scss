@@ -1,0 +1,56 @@
+$body-background-color: #eef2f6;
+$footer-background-color: #21161c;
+$dark: #21161c;
+$warning: #f39c12;
+$primary: #fe4d42;
+$grey: #7a7a7a;
+$light: #eef2f6;
+$white: #ffffff;
+//$navbar-height:5.25rem;
+$navbar-item-hover-background-color: $primary;
+$navbar-item-color: yellow;
+$navbar-item-hover-color: $primary;
+$navbar-burger-color: pink;
+$navbar-background-color: $dark;
+$navbar-item-color: white;
+//@import "./bs4-helpers";
+
+.underline {
+
+  text-decoration: underline;
+
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #ffffff;
+
+}
+
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+  background-image: url("../../public/img/icons/chevron-left-solid.svg");
+  left: 10px;
+  right: auto;
+}
+
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+  background-image: url("../../public/img/icons/chevron-right-solid.svg");
+
+  right: 10px;
+  left: auto;
+}
+
+
+
+//@import "~bulma-extensions";
+
+
+@import "../../node_modules/bulma/bulma";
+@import "../../node_modules/bulma-extensions/dist/css/bulma-extensions.min.css";
+
+
+@import "swiper.css";
+
+
+
+
