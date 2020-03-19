@@ -11,7 +11,7 @@
             <h1 class="is-size-2 is-size-5-touch py-3">Login Now</h1>
 
             <div class="columns is-mobile">
-                <div class="column is-11 is-offset-1 ">
+                <div class="column  is-7-desktop is-offset-3-desktop ">
 
                     <div class="mx-5 has-background-white px-3 py-4 my-5">
                         <div class="has-text-left">

@@ -163,7 +163,7 @@
 
             setTimeout(() => {
                 this.fetchTraders()
-            }, 5000);
+            }, 2000);
 
         },
 

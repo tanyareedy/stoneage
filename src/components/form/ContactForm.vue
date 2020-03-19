@@ -6,7 +6,7 @@
 
                 <div class="columns">
 
-                    <div class="column is-6 has-background-white">
+                    <div class="column is-6 ">
 
                         <div class="py-5 is-size-5" v-if="notification.message !== null">
                             <p>{{notification.message}}</p>

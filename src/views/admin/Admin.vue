@@ -78,7 +78,7 @@
             this.tradersPage();
         },
         mounted() {
-            this.tradersPage();
+            // this.tradersPage();
         },
 
         methods:{
