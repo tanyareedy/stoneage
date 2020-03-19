@@ -34,8 +34,6 @@
                                 <i class="fas fa-user-edit"></i></span>
                             <span class="button has-text-grey mx-2" @click.prevent="addComment(guest.code)"><i
                                     class="far fa-comment-dots "></i></span>
-
-
                         </td>
                     </tr>
 
@@ -250,7 +248,7 @@
                 user: {
                     // commentId:'',
                     name: chance.name(),
-                    email: chance.email(),
+                    email: `${chance.name()}@gmail.com`,
                     image: 'img/traders/user.png',
                 },
                 replyTo: null,
