@@ -65,9 +65,35 @@
                                             </router-link>
 
 
-                                            <button @click="deleteTrader(trader.code)" class="button is-danger"><i
+                                            <button @click="modalVisibility" class="button is-danger"><i
                                                     class="far fa-trash-alt"></i></button>
+
+                                            <div class="modal" :class="visible">
+
+                                                <div class="modal-background is-transparent"></div>
+                                                <div class="modal-content">
+                                                    <div class="mx-5">
+                                                        <div class="has-background-dark py-5 rounded-lg">
+                                                            <div class="has-text-centered has-text-white">
+                                                                <h1 class=""> This action will
+                                                                    delete this trader, all its users, comment and reply
+                                                                </h1>
+                                                                <p>Are you sure you want to do this ?</p>
+                                                                <div class="my-4">
+                                                                    <button @click="modalVisibility" class="button is-danger mx-5">No</button>
+                                                                    <button @click="deleteTrader(trader.code)" class="button is-success mx-5">Yes</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <button @click="modalVisibility"  class="modal-close is-large" aria-label="close"></button>
+                                            </div>
                                         </div>
+
+
+
+
 
                                     </td>
                                 </tr>
@@ -139,6 +165,9 @@
         },
         data() {
             return {
+                visible:{
+                    'is-active':false,
+                },
                 myData: null,
                 message: null,
                 loaded: false,
@@ -163,7 +192,7 @@
 
             setTimeout(() => {
                 this.fetchTraders()
-            }, 2000);
+            }, 10);
 
         },
 
@@ -175,6 +204,10 @@
         },
 
         methods: {
+
+            modalVisibility(){
+                this.visible["is-active"] = !this.visible["is-active"];
+            },
 
             fetchTraders() {
 

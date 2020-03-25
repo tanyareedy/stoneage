@@ -73,10 +73,7 @@
             }
         },
 
-        beforeCreate() {
 
-            this.tradersPage();
-        },
         mounted() {
             // this.tradersPage();
         },
