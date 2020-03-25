@@ -45,8 +45,8 @@
 
 
 
-<footer class="has-background-success">
-<p>i am a footer</p>
+<footer class="has-background-white">
+<p class="has-text-grey">manager</p>
 </footer>
 
 
