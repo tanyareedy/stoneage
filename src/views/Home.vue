@@ -24,7 +24,6 @@
               month
               achieve their trading goals, and improve standard of living through digital options trading.
             </p>
-
             <router-link :to="{name:'about'}" class="button is-primary">Learn more</router-link>
           </div>
 
