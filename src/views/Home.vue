@@ -15,7 +15,6 @@
               Why Choose
               Newagebot ?
             </h1>
-
             <p class="py-3">
               Only {{name}} possesses the parent registered regulatory right to offer the Trade For Me
               Service in the industry.
