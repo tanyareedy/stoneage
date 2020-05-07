@@ -58,10 +58,6 @@
                         </p>
                         </li>
 
-                        <li><p><i class="fas fa-phone-alt has-text-primary is-size-4 mx-2 "></i>
-                            {{telephone}}
-                        </p>
-                        </li>
                         <li><p><i class="far fa-building has-text-primary is-size-4 mx-2 "></i>
 
                             {{address}}

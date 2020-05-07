@@ -38,7 +38,7 @@
                     },
                     {
                         icon: 'fas fa-user-shield',
-                        target: '220',
+                        target: '55',
                         text: 'Professional Traders',
                     },
                     {

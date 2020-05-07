@@ -3,7 +3,7 @@
 
         <div class="py-5">
             <p class="is-size-4 is-size-5-touch has-text-primary">
-                With Newagebot, <br> your always making the right choice
+                With Newagebot, <br> you are always making the right choice
             </p>
             <h1 class="is-size-1  has-text-weight-bold is-size-3-touch">
                 Choose Your Trading Preference
@@ -79,6 +79,7 @@
                             'Subscription cost range; USD 5,000+',
                             'Estimated minimum payout (2weeks); USD $19,850',
                             '24/7 Customer support', 'Designated Trade Expert',
+                            '100% access into trading account',
                             'Trade-expert contact:',
                         ],
                         contact: icons

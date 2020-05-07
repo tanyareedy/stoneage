@@ -354,6 +354,7 @@
                     this.trader = data;
                     this.loaded = true;
                 } catch (e) {
+                    this.notification = e;
 
                 }
             },
@@ -364,6 +365,7 @@
                     this.guest = data;
                     this.loaded = true;
                 } catch (e) {
+                    this.notification = e;
 
                 }
             },

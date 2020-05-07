@@ -2,36 +2,27 @@
     <div>
 
 
-        <div id="jumbo">
+        <div id="jumbo" class="py-5">
+            <div class="">
+                <div class="spacer"></div>
 
-
-            <div class="pt-5">
-               <div class="spacer"></div>
-                <h1 class="is-size-1 is-size-5-touch has-text-primary mt-5">Join NewageBot</h1>
+                <h1 class="is-size-1 is-size-3-tablet is-size-4-mobile has-text-primary mt-5">Join NewageBot</h1>
 
                 <swiper :options="swiperOption">
                     <swiper-slide>
-
-
-                        <h1 class="is-size-5-touch is-size-1-desktop has-text-weight-semibold  has-text-white has-text-centered">
-                            PROFESSIONAL TRADERS AT YOUR SERVICE!
+                        <h1 class="is-size-2-tablet is-size-4-mobile is-size-1-desktop has-text-weight-semibold  has-text-white has-text-centered">
+                            PROFESSIONAL TRADERS AT YOUR <br> SERVICE!
                         </h1>
-
-
-
                     </swiper-slide>
                     <swiper-slide>
-                        <h1 class="is-size-5-touch is-size-1-desktop has-text-weight-semibold  has-text-white has-text-centered">
-
+                        <h1 class="is-size-2-tablet is-size-4-mobile is-size-1-desktop has-text-weight-semibold  has-text-white has-text-centered">
                             NEW AGE BINARY OPTIONS TRADING PLATFORM!
                         </h1>
 
 
-
                     </swiper-slide>
                     <swiper-slide>
-                        <h1 class="is-size-5-touch is-size-1-desktop has-text-weight-semibold  has-text-white has-text-centered">
-
+                        <h1 class="is-size-2-tablet is-size-4-mobile is-size-1-desktop has-text-weight-semibold  has-text-white has-text-centered">
 
                             TRIED AND TESTED SYSTEMS THAT WORK
                         </h1>
@@ -39,11 +30,12 @@
                     </swiper-slide>
 
                 </swiper>
-                <h2 class="is-size-6-touch is-size-3-desktop has-text-white has-text-centered">
-
+                <h2 class="is-size-5-touch is-size-3-desktop has-text-white has-text-centered">
                     Reduced Risk & Guaranteed Earning.
                 </h2>
             </div>
+            <router-link :to="{name:'traders'}" class="button is-primary is-medium mt-5">Find a Trader
+            </router-link>
 
 
         </div>
@@ -106,61 +98,13 @@
     #jumbo {
         background-image: url("/img/banner/banner3.jpg "); /* The image used */
         background-color: #cccccc; /* Used if the image is unavailable */
-        height: 800px; /* You must set a specified height */
-
+        height: auto; /* You must set a specified height */
         background-position: center; /* Center the image */
         background-repeat: no-repeat; /* Do not repeat the image */
         background-size: cover; /* Resize the background image to cover the entire container */
     }
 
-    /* Extra small devices (phones, 600px and down) */
-    @media only screen and (max-width: 600px) {
-        #jumbo {
-            height: 350px; /* You must set a specified height */
 
-        }
-
-
-    }
-
-    /* Small devices (portrait tablets and large phones, 600px and up) */
-    @media only screen and (min-width: 600px) {
-
-        #jumbo {
-            height: 350px; /* You must set a specified height */
-
-        }
-
-    }
-
-    /* Medium devices (landscape tablets, 768px and up) */
-    @media only screen and (min-width: 768px) {
-        #jumbo {
-            height: 550px; /* You must set a specified height */
-
-        }
-
-    }
-
-    /* Large devices (laptops/desktops, 992px and up) */
-    @media only screen and (min-width: 992px) {
-
-        #jumbo {
-            height: 650px; /* You must set a specified height */
-
-        }
-
-
-    }
-
-    /* Extra large devices (large laptops and desktops, 1200px and up) */
-    @media only screen and (min-width: 1200px) {
-        #jumbo {
-            height: 800px; /* You must set a specified height */
-
-        }
-
-    }
 
     .img-responsive {
         display: block;

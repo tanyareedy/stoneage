@@ -52,8 +52,7 @@
                             <BulmaAccordionItem class="my-4">
                                 <h4 class="font-weight-bold has-text-left" slot="title">
 
-                                    Will I be required to share my brokerage account login details with my
-                                    Trade-Expert ?
+                                    Will I be required to share my brokerage account login details
                                 </h4>
                                 <p class="has-text-left" slot="content">
                                     Your login Details are confidential!
@@ -62,21 +61,7 @@
                                 </p>
                             </BulmaAccordionItem>
 
-                            <BulmaAccordionItem>
-                                <h4 class="font-weight-bold has-text-left" slot="title">
-
-
-                                    Will I be required to share my brokerage account login details with my
-                                    Trade-Expert?
-
-
-                                </h4>
-                                <p slot="content">
-                                    Your login Details are confidential!
-                                    <br>
-                                    You will not be required at any time to share your login Details wit any Trader.
-                                </p>
-                            </BulmaAccordionItem>
+                       
 
                         </BulmaAccordion>
                     </div>

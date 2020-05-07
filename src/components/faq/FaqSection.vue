@@ -76,8 +76,8 @@
 
                                 </h4>
                                 <p class="has-text-centered" slot="content">
-                                   We have no restrictions about how you use you account as long as you do not
-                                    go against thew terms and conditions.
+                                   We have no restrictions about how you use your account as long as you do not
+                                    go against the terms and conditions.
 
                                 </p>
                             </BulmaAccordionItem>
