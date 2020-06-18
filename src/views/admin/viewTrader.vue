@@ -7,7 +7,7 @@
 
 
             <div class="columns">
-                <div class="column is-9 pt-5  ">
+                <div class="column is-9 pt-5">
                     <div class="has-background-white px-3  py-4 rounded-lg rounded-lg  mb-3">
                         <h1 class="text-left is-size-4 has-text-weight-bold">Details</h1>
                         <hr>

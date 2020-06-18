@@ -13,6 +13,11 @@
                             it comes with on default after creation. (this account is not for Trading or mining
                             Cryptocurrencies).
                         </p>
+                        <div>
+                            <h1 class=" is-size-4"><img src="/img/awards/one-star.png" width="30px">Trustpilot</h1>
+                            <img src="/img/awards/stars-4-01.png" width="200px">
+                            <p>TrustScore 4.0 | 5 Reviews</p>
+                        </div>
                     </div>
 
                     <div class="column">
@@ -29,10 +34,11 @@
 
 <script>
     import data from "../../db/main_data";
+
     export default {
         data() {
             return {
-                name:data.global.name,
+                name: data.global.name,
             }
         },
 

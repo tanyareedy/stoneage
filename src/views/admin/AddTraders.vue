@@ -367,7 +367,6 @@
                     assets: ['Crypto Currency', 'Forex', 'Binary Options', 'Stocks'],
                     platForm: 'All supported platforms',
 
-
                 }
             }
         },
