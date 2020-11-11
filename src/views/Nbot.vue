@@ -8,7 +8,7 @@
         <h1 class="is-size-1 is-size-3-touch has-text-white has-text-left px-5 py-3 has-text-weight-bold">Newagebot
           Software</h1>
         <p class="is-size-4 is-size-6-touch has-text-white has-text-left px-5">Trade with high accuracy signals </p>
-        <p class="is-size-4 is-size-6-touch has-text-white has-text-left px-5"> Facilitate Withdrawals via BTC  ETH </p>
+        <p class="is-size-4 is-size-6-touch has-text-white has-text-left px-5"> Facilitate Withdrawals via BTC and ETH </p>
       </div>
       <div id="target"></div>
     </div>
