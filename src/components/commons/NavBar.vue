@@ -38,6 +38,11 @@
                             <router-link :to="{name:'contact'}" exact-active-class="current-page" class="navbar-item">
                                 Contact
                             </router-link>
+
+                          <router-link :to="{name:'nbot'}" exact-active-class="current-page" class="navbar-item">
+                            Nbot 5.0
+                          </router-link>
+
                         </div>
                         <div class="navbar-end">
                             <div class="navbar-item">

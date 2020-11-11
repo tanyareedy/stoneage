@@ -114,7 +114,7 @@
                                 </div>
                             </div>
                             <button @click="processForm" value="Send Form"
-                                    class="button is-primary is-large">
+                                    class="button is-primary is-pulled-left">
                                 Send message
                             </button>
                             <br>

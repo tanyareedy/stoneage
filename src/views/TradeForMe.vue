@@ -19,7 +19,7 @@
         <!--steps-->
         <template >
             <div v-scrollanimation class="container is-fluid py-5">
-                <h1 class="is-size-1 is-size-4-touch">Get Started With {{name}}</h1>
+                <h1 class="is-size-3 is-size-4-touch">Get Started With {{name}}</h1>
                 <div class="columns">
 
                     <div v-for="starter in starters" :key="starter.id">

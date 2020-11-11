@@ -6,7 +6,7 @@
             <div class="">
                 <div class="spacer"></div>
 
-                <h1 class="is-size-1 is-size-3-tablet is-size-4-mobile has-text-primary mt-5">Join NewageBot</h1>
+                <h1 class="is-size-1 is-size-3-tablet is-size-4-mobile has-text-primary mt-5">Join Newagebot</h1>
 
                 <swiper :options="swiperOption">
                     <swiper-slide>
