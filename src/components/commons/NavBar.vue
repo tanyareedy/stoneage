@@ -35,13 +35,14 @@
                             <router-link :to="{name:'about'}" exact-active-class="current-page" class="navbar-item">
                                 About Company
                             </router-link>
+                          <router-link :to="{name:'nbot'}" exact-active-class="current-page" class="navbar-item">
+                            Nbot 5.0
+                          </router-link>
                             <router-link :to="{name:'contact'}" exact-active-class="current-page" class="navbar-item">
                                 Contact
                             </router-link>
 
-                          <router-link :to="{name:'nbot'}" exact-active-class="current-page" class="navbar-item">
-                            Nbot 5.0
-                          </router-link>
+
 
                         </div>
                         <div class="navbar-end">
@@ -79,6 +80,10 @@
                                     <router-link class="has-text-white" :to="{name:'about'}" href="#">About Company
                                     </router-link>
                                 </li>
+                              <li @click="showMobileNav" class="py-4 is-size-4 font-weight-bold">
+                                <router-link class="has-text-white" :to="{name:'nbot'}"  href="#">Nbot 5.0
+                                </router-link>
+                              </li>
                                 <li @click="showMobileNav" class="py-4 is-size-4 font-weight-bold">
                                     <router-link class="has-text-white" :to="{name:'contact'}" href="#">Contact
                                     </router-link>
