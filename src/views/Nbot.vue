@@ -49,7 +49,7 @@
          </li>
        </ul>
 
-       <p class="is-size-4">
+       <p class="is-size-4 py-5">
          The cost of this software varies by user needs, please contact us for pricing. contact@newagebot.org for
        </p>
 
