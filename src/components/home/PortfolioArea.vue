@@ -1,25 +1,29 @@
 
 
 <template>
-    <div class="image records has-background-primary py-5">
+ <div>
+<section class="section">
+  <div class="image records has-background-primary py-5">
     <div class="columns">
-        <div class="column" v-for="record in records" :key="record.id">
-            <div class="py-lg-5">
-                <div class="has-text-centered py-5">
-                    <p class="is-size-1 has-text-white"><span><i
-                            :class="record.icon "></i></span></p>
-                    <h1 class="is-size-2 has-text-weight-bold has-text-white">
-                        <span class="counter " :data-target="record.target"></span><span>+</span>
-                    </h1>
-                    <h5 class="is-size-5 has-text-weight-semibold has-text-white ">{{record.text}}</h5>
-                </div>
+      <div class="column" v-for="record in records" :key="record.id">
+        <div class="py-lg-5">
+          <div class="has-text-centered py-5">
+            <p class="is-size-1 has-text-white"><span><i
+                :class="record.icon "></i></span></p>
+            <h1 class="is-size-2 has-text-weight-bold has-text-white">
+              <span class="counter " :data-target="record.target"></span><span>+</span>
+            </h1>
+            <h5 class="is-size-5 has-text-weight-semibold has-text-white ">{{record.text}}</h5>
+          </div>
 
-            </div>
         </div>
+      </div>
 
 
     </div>
-    </div>
+  </div>
+</section>
+ </div>
 </template>
 <script>
     export default {
