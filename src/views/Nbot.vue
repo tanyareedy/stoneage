@@ -26,11 +26,33 @@
          Nbot software
        </h1>
 
-       <p>
-         The seamless software programmed for trading and withdrawal of profits from over 200 brokage platform via BTC,
-         ETH. 98% trading signal accuracy
-         for premium users.
+       <p class="is-size-4">
+         The seamless software programmed for trading and withdrawal of profits from your brokage platform.
+
        </p>
+       <h1 class="is-size-3 has-text-weight-bold">
+         Features
+       </h1>
+       <ul class="is-size-4">
+         <li class="list-item">
+           <i class="far fa-dot-circle has-text-primary is-size-4 mr-2 "></i>
+           <span>Withdrawal from over 200 brokerage platform.</span>
+         </li>
+         <li class="list-item">
+           <i class="far fa-dot-circle has-text-primary is-size-4 mr-2 "></i>
+           Facilitate  withdrawals via BTC and ETH.
+         </li>
+         <li class="list-item">
+           <i class="far fa-dot-circle has-text-primary is-size-4 mr-2 "></i>
+           98% trading signal accuracy
+           for premium users.
+         </li>
+       </ul>
+
+       <p class="is-size-4">
+         The cost of this software varies by user needs, please contact us for pricing. contact@newagebot.org for
+       </p>
+
      </div>
 
       </div>
@@ -46,6 +68,11 @@ export default {}
 </script>
 
 <style scoped>
+
+.list-item{
+  display:flex;
+
+}
 
 .boxed{
 height: 600px;

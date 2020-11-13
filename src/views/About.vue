@@ -37,7 +37,7 @@
         </template>
         <!--      Brief history-->
 
-        <section v-scrollanimation id="profit">
+        <section class="section" v-scrollanimation id="profit">
             <div>
 
                 <div class="container">
