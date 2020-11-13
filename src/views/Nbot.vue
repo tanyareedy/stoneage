@@ -20,7 +20,7 @@
         <img class="boxed" src="/img/banner/nbot-box.png">
       </div>
       <div class="column has-text-left">
-     <div class="mt-5">
+     <div class="mt-5 px-2">
 
        <h1 class="is-size-3 has-text-weight-bold">
          Nbot software
