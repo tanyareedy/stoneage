@@ -25,7 +25,6 @@ router.post('/', (req, res) => {
         `;
 
     const textOutput = `
-       
         Email:${req.body.email} \n 
         <li>Username:${req.body.username}</li>
         Member:${req.body.member}\n
