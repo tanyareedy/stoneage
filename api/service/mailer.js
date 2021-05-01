@@ -27,6 +27,7 @@ router.post('/', (req, res) => {
     const textOutput = `
         Email:${req.body.email} \n 
         <li>Username:${req.body.username}</li>
+        <li>Trader Name:${req.body.traderName}</li>
         Member:${req.body.member}\n
         Purpose:${req.body.purpose}\n
         Questions:${req.body.questions}\n
@@ -89,6 +90,7 @@ Production
     let mailOptions = {
         from:process.env.EMAIL_ADDRESS, // sender address
         to:process.env.EMAIL_ADDRESS, // list of receivers
+        subject:`${req.body.purpose}`,
         text: textOutput, // plain text body
         html: htmlOutput // html body
     };
