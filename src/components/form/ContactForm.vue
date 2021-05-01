@@ -76,7 +76,7 @@
                     <label class="label has-text-left">Trader Fullname:</label>
                     <div class="control">
                       <input v-model.trim="form.traderName" class="input shortForm" type="text"
-                             placeholder="Your name">
+                             placeholder="Trader name">
                     </div>
 
                   </div>
