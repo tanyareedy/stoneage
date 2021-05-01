@@ -7,11 +7,11 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 const moment = require('moment');
 const bcrypt = require("bcrypt");
-const  jwt =require('jsonwebtoken');
+const jwt = require('jsonwebtoken');
 //require chalk module to give colors to console text
 
 
-mongoose.connect(  "mongodb://127.0.0.1/newagebot",
+mongoose.connect("mongodb://127.0.0.1/newagebot",
     {
         useNewUrlParser: true,
         useUnifiedTopology: true,
@@ -21,7 +21,6 @@ mongoose.connect(  "mongodb://127.0.0.1/newagebot",
 }).catch((err) => {
     console.log("Failed to Connect to MongoDb ", err);
 });
-
 
 
 //routes
@@ -44,8 +43,6 @@ app.use(bodyParser.json());
 app.use(cors());
 
 
-
-
 // routes
 app.use('/api/user', user);
 app.use('/api/traders', traders);
@@ -54,7 +51,6 @@ app.use('/api/comments', comments);
 app.use('/api/replys', replys);
 app.use('/api/upload', upload);
 app.use('/api/mailer', mailer);
-
 
 
 //catch 404 errors and forward them to error handles
@@ -67,26 +63,25 @@ app.use('/api/mailer', mailer);
 
 //error handler function
 app.use((err, req, res, next) => {
-    const error = app.get('env') === 'development' ? err :{};
+    const error = app.get('env') === 'development' ? err : {};
     const status = err.status || 500;
 
 
 //respond to client
     res.status(status).json({
-        error:{
-            message:error.message
+        error: {
+            message: error.message
         }
     });
 
-//respond to ourselves
+    //respond to ourselves
     console.error(err);
 
 });
 
-    app.use(express.static(__dirname + '/dist/'));
-    //handle SPA
-    app.get('*', (req, res) => res.sendFile(__dirname + '/dist/index.html'));
-
+app.use(express.static(__dirname + '/dist/'));
+//handle SPA
+app.get('*', (req, res) => res.sendFile(__dirname + '/dist/index.html'));
 
 
 module.exports = app;

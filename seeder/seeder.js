@@ -19,7 +19,8 @@ count = Number(count);
 
 const run  = async ()=> {
     while (counter < count) {
-        const data = new Trader({
+        const data = new Trader(
+            {
             _id: new mongoose.Types.ObjectId(),
             code: helper.randomStr(5),
             image: 'img/traders/user.png',

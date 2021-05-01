@@ -43,8 +43,9 @@ Production
             pass: 'manager@2020'  // generated ethereal password
         },
         secure:false
-//Development
 
+
+//Development
 
         host: "smtp.mailtrap.io",
         port:  2525,
