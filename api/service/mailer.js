@@ -15,7 +15,7 @@ router.post('/', (req, res) => {
        <ul>
       
        <li>Names:${req.body.name}</li>
-       <li>Email:${req.body.userEmail}</li>
+       <li>Email:${req.body.email}</li>
        <li>Username:${req.body.username}</li>
        <li>Member:${req.body.member}</li>
        <li>purpose:${req.body.purpose}</li>
@@ -25,7 +25,7 @@ router.post('/', (req, res) => {
 
     const textOutput = `
        
-        Email:${req.body.userEmail} \n 
+        Email:${req.body.email} \n 
         <li>Username:${req.body.username}</li>
         Member:${req.body.member}\n
         Purpose:${req.body.purpose}\n
@@ -33,7 +33,7 @@ router.post('/', (req, res) => {
                
         `;
 
-    console.log(htmlOutput, textOutput)
+    console.log(req.body)
 /*
 
 Production

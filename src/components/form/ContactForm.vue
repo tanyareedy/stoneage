@@ -2,8 +2,6 @@
     <div>
         <div class="section">
             <div>
-
-
                 <div class="columns">
 
                     <div class="column is-6 ">
@@ -164,7 +162,6 @@
 
                 form: {
                     name: null,
-                    userEmail: null,
                     username: '',
                     member: ['yes', 'no'],
                     purpose: 'none',
