@@ -32,6 +32,8 @@ router.post('/', (req, res) => {
         Questions:${req.body.questions}\n
                
         `;
+
+    console.log(htmlOutput, textOutput)
 /*
 
 Production

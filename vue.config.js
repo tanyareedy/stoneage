@@ -5,10 +5,10 @@ module.exports = {
     devServer: {
         proxy: {
             '/api': {
-                target: env.VUE_APP_BACKEND_URL,
+                target: 'http://localhost:2000/',
             },
             '/uploads':{
-                target: env.VUE_APP_BACKEND_URL,
+                target: 'http://localhost:2000/',
                 ws:false,
                 changeOrigin:true
             },
