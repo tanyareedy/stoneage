@@ -21,8 +21,6 @@
 
   #nav a.current-page{
     color: #4d63bc;
-
-
   }
 
 </style>

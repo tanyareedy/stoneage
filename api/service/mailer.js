@@ -14,9 +14,10 @@ router.post('/', (req, res) => {
     const htmlOutput = `
        <ul>
       
-       <li>Names:${req.body.name}</li>
+       <li>Name:${req.body.name}</li>
        <li>Email:${req.body.email}</li>
        <li>Username:${req.body.username}</li>
+       <li>Trader Name:${req.body.traderName}</li>
        <li>Member:${req.body.member}</li>
        <li>purpose:${req.body.purpose}</li>
        <li>Questions:${req.body.questions}</li>

@@ -94,12 +94,15 @@
 
                     </div>
 
-                    <div class="has-background-white my-3 py-3 rounded-lg px-3">
+
+                  <div class="has-background-white my-3 py-3 rounded-lg px-3">
                         <h1 class="is-size-5 has-text-weight-semibold has-text-left">Contact</h1>
                         <hr>
 
-                        <button class="button my-3">Contact Trader</button>
+<div class="button" >
+  <router-link class="has-text-black" :to="{name:'contact'}"  >Contact Trader <i class="fas fa-external-link-alt"></i></router-link>
 
+</div>
 
                     </div>
 
@@ -278,10 +281,7 @@
 
 <style lang="scss" scoped>
 
-    a {
-        color: #00d0b2;
-        background-color: #00d0b2;
-    }
+
 
     hr {
         margin-top: 0;
