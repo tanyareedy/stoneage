@@ -16,6 +16,7 @@ mongoose.connect(  "mongodb://127.0.0.1/newagebot",
         useNewUrlParser: true,
         useUnifiedTopology: true,
         useFindAndModify: false,
+        useCreateIndex:true
     }).then(() => {
     console.log("Connected to Mongo Database Successfully");
 }).catch((err) => {
