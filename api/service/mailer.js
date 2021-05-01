@@ -12,8 +12,7 @@ const router = express.Router();
 router.post('/', (req, res) => {
 
     const htmlOutput = `
-       <ul>
-      
+       <ul>      
        <li>Name:${req.body.name}</li>
        <li>Email:${req.body.email}</li>
        <li>Username:${req.body.username}</li>
@@ -30,8 +29,7 @@ router.post('/', (req, res) => {
         <li>Trader Name:${req.body.traderName}</li>
         Member:${req.body.member}\n
         Purpose:${req.body.purpose}\n
-        Questions:${req.body.questions}\n
-               
+        Questions:${req.body.questions}\n               
         `;
 
 /*
