@@ -20,7 +20,7 @@ router.post('/', (req, res) => {
        <li>Member:${req.body.member}</li>
        <li>purpose:${req.body.purpose}</li>
        <li>Questions:${req.body.questions}</li>
-       <ul>        
+       <ul>    
         `;
 
     const textOutput = `
@@ -32,6 +32,7 @@ router.post('/', (req, res) => {
         Questions:${req.body.questions}\n               
         `;
 
+    console.log(req.body)
 /*
 
 Production

@@ -175,11 +175,12 @@ export default {
       },
 
       form: {
-        name: null,
+        name: '',
+        email:'',
         username: '',
-        member: [ 'no'],
+        member: ['no'],
         purpose: 'none',
-        questions: null,
+        questions: '',
         traderName:''
 
       }
